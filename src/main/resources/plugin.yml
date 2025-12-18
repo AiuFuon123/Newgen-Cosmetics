@@ -1,0 +1,23 @@
+name: Newgen-Cosmetics
+version: 1.0.0
+main: NewgenCosmetics.NewgenCosmeticGUI
+api-version: "1.21"
+authors: [AiuFuon]
+
+commands:
+  cosmetic:
+    description: Cosmetic commands
+    usage: /cosmetic | /cosmetic admin | /cosmetic add <player> <cosmeticId> | /cosmetic equip <player> <cosmeticId>
+
+permissions:
+  newgen.cosmetic.use:
+    default: true
+  newgen.cosmetic.admin:
+    default: op
+  newgen.cosmetic.add:
+    default: op
+  newgen.cosmetic.equip:
+    default: op
+  newgen.cosmetic.reload:
+    default: op
+
